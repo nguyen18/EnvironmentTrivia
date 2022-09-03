@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to left, #0956ba , #4d9ee2 );
+    background: white;
     z-index: -1;
 }
 
@@ -23,12 +23,17 @@ nav {
     min-height: 10vh;
     color: black;
     align-items: center;
-    background: white;
+    background: #90e98d;
 }
 
 #logo {
     grid-column: 2/3;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#goal {
+    font-size: 20px;
 }
 
 
@@ -62,11 +67,6 @@ section {
     width: 100%;
     position: relative;
 }
-.car img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .headline {
     position: absolute;
@@ -79,27 +79,14 @@ section {
 
 }
 
-
-.car::after {
-    content: "";
-    background: black;
-    width: 100%;
-    height:100%;
-    position: absolute;
-    left: 0;
-    opacity: 0.2;
-    top: 0;
-
-
-}
-
 .dropbtn {
-    background-color: #79dab6;
-    color: rgb(126, 223, 170);
-    padding: 16px;
+    background-color: #5ad355;
+    color: rgb(144, 233, 141);
+    padding: 10px;
     background-position:100% 10%;
     font-size: 16px;
-    border: none;
+    border-width: 1px;
+    border-color:rgb(3, 80, 0);
   }
   
   .dropdown {
