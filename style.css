@@ -93,17 +93,18 @@ section {
 
 }
 
-<style>
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #79dab6;
+    color: rgb(126, 223, 170);
     padding: 16px;
+    background-position:100% 10%;
     font-size: 16px;
     border: none;
   }
   
   .dropdown {
     position: relative;
+    left: 100%;
     display: inline-block;
   }
   
@@ -128,4 +129,3 @@ section {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
-</style>
