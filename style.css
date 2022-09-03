@@ -30,7 +30,10 @@ nav {
     grid-column: 2/3;
     font-size: 50px;
     font-family: cursive;
+}
 
+#goal {
+    font-size: 20px;
 }
 
 
