@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to left, #0956ba , #4d9ee2 );
+    background: white;
     z-index: -1;
 }
 
@@ -23,12 +23,14 @@ nav {
     min-height: 10vh;
     color: black;
     align-items: center;
-    background: white;
+    background: #90e98d;
 }
 
 #logo {
     grid-column: 2/3;
-    font-size: 24px;
+    font-size: 50px;
+    font-family: cursive;
+
 }
 
 
@@ -62,11 +64,6 @@ section {
     width: 100%;
     position: relative;
 }
-.car img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .headline {
     position: absolute;
@@ -79,18 +76,40 @@ section {
 
 }
 
-
-.car::after {
-    content: "";
-    background: black;
-    width: 100%;
-    height:100%;
+.dropbtn {
+    background-color: #5ad355;
+    color: rgb(144, 233, 141);
+    padding: 10px;
+    background-position:100% 10%;
+    font-size: 16px;
+    border-width: 1px;
+    border-color:rgb(3, 80, 0);
+  }
+  
+  .dropdown {
+    position: relative;
+    left: 100%;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
     position: absolute;
-    left: 0;
-    opacity: 0.2;
-    top: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
 
-
-}
-
-
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
