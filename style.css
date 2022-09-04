@@ -30,13 +30,13 @@ nav {
 #logo {
     grid-column: 2/3;
     font-size: 50px;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #goal {
     font-size: 40px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #nat {
