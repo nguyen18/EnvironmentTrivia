@@ -24,7 +24,6 @@ body.wrong {
   --hue: var(--hue-wrong);
 }
 
-
 .container {
   display: center;
   height: 100%;
