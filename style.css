@@ -7,6 +7,9 @@ nav {
     background: #90e98d;
 }
 
+body{ 
+    overflow-x :hidden; 
+} 
 
 #logo {
     grid-column: 2/3;
