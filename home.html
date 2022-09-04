@@ -8,12 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale =1.0">
     <meta http-equiv="X-UA-Compatible" content="ie =edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css"> 
-    <link rel="stylesheet" href="./trivia.css"> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./trivia.css">
     <script defer src="trivia.js"></script>
+    <script defer src="Slideshow.js"></script>
 </head>
 
 <body>
+
+
 
     <header>
         <nav>
@@ -28,7 +31,7 @@
                       <a href="home.html">Home</a>
                       <a href="aboutus.html" target="_blank">About Us!</a>
                       <a href="moreinfo.html" target="_blank">More Information</a>
-                        <a href  = "mapPage.html"> Carbon Heat Map </a>
+                        <a href="mapPage.html">Carbon Heat Map </a>
                     </div>
                   </div>
 
@@ -37,34 +40,45 @@
         </nav>
 
 
+        </nav>
     </header>
 
-    <div class="container">
-        <div id="question-container" class="hide">
-          <div id="question">Question</div>
-          <div id="answer-buttons" class="btn-grid">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
-          </div>
+    <div class="row">
+        <div class="column">
+            <div class="pbox">
+                <img src="https://www.azocleantech.com/images/Article_Images/ImageForArticle_913(1).jpg"
+                    alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">Take the <br><a href="quiz1.html" id="homelinks">Plastic Waste Quiz</a> </div>
+                </div>
+            </div>
         </div>
-        <div class="controls">
-          <button id="start-btn" class="start-btn btn">Start</button>
-          <button id="next-btn" class="next-btn btn hide">Next</button>
+
+        <div class="column">
+            <div class="pbox">
+                <img src="https://media.nationalgeographic.org/assets/photos/000/280/28044_c0-41-990-701_r1050x700.jpg?d4ccf3044d9da0d0118103be3a76bd1319370847"
+                    alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">Take the <br><a href="quiz2.html" id="homelinks">Global Warming Quiz</a> </div>
+                </div>
+            </div>
         </div>
+
+        <div class="column">
+            <div class="pbox">
+                <img src="https://static01.nyt.com/images/2020/09/15/climate/15CLI-BIODIVERSITY1-alt/15CLI-BIODIVERSITY1-alt-superJumbo-v3.jpg"
+                    alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">Take the <br><a href="quiz3.html" id="homelinks">Loss of Biodiversity Quiz</a> </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
 
     <div class="footer">
     </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js">
-    </script>
-    <script src="main.js">
-    </script>
 
 
 </body>

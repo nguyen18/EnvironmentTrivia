@@ -78,35 +78,44 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'How much plastic waste is produced a year?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: '400 million Tons', correct: true },
+      { text: '300 million Tons', correct: false },
+      { text: '200 million Tons', correct: false },
+      { text: '100 million Tons', correct: false },
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What is the most littered item on Earth?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Plastic Straws', correct: false },
+      { text: 'Water Bottles', correct: false },
+      { text: 'Cigarette Butts', correct: true },
+      { text: 'Take-out containers', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Which type of plastic is never recycled?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'Polyethylene terephthalate', correct: false },
+      { text: 'Polystyrene', correct: true }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Should you remove caps off of bottles before recycling?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'True', correct: false },
+      { text: 'False', correct: true }
+    ]
+  },
+  {
+    question: 'Which animal is affected the most from plastic waste?',
+    answers: [
+      { text: 'Whales', correct: false },
+      { text: 'Birds', correct: false },
+      { text: 'Fish', correct: false },
+      { text: 'Sea Turtles', correct: true}
     ]
   }
 ]
