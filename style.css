@@ -25,7 +25,7 @@ body{
 }
 
 #goal {
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -37,6 +37,13 @@ body{
     margin-left: auto;
     margin-right:auto;
 }
+
+.info_title{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .title1 {
     text-align: center;
     font-size: 100px;
@@ -50,6 +57,17 @@ body{
     outline: none;
     border: none;
 
+}
+
+.infoimg {
+    margin-right: auto;
+    margin-left:auto;
+    display:block;
+}
+
+.info{
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section {
