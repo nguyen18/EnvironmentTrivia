@@ -9,6 +9,9 @@ nav {
 
 body{ 
     overflow-x :hidden; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 } 
 
 #logo {
@@ -115,6 +118,10 @@ body{
     width: 50%;
   }
   
+  #homelinks {
+    color: rgb(55, 90, 26);
+  }
+
   .image {
     display: block;
     width: 350px;
@@ -128,10 +135,10 @@ body{
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 350px;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #97d170;
   }
   
   .pbox:hover .overlay {
@@ -168,9 +175,8 @@ body{
   }
   
   /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0% 5%;
-
-
+  .row {
+    margin: auto;
     }
   
   /* Clear floats after the columns */
@@ -191,9 +197,8 @@ body{
 
 .footer {
     position: relative;
-    margin-top: 10%;
-    margin-bottom: 0%;
-    top: 220px;
+    margin-top: auto;
+    top: 0;
     left: 0;
     bottom: 0;
     width: 100%;
