@@ -21,7 +21,7 @@ body{
 }
 
 #goal {
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -53,6 +53,11 @@ body{
     outline: none;
     border: none;
 
+}
+
+.info{
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section {
