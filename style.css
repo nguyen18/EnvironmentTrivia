@@ -117,7 +117,7 @@ body{
   
   .image {
     display: block;
-    width: 100%;
+    width: 350px;
     height: auto;
   }
   
@@ -162,12 +162,16 @@ body{
   .column {
     float: left;
     width: 33.33%;
-    margin-top: 30%;
+    margin-top: 10%;
     padding: 0 10px;
+    padding-top: 0px;
   }
   
   /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
+  .row {margin: 0% 5%;
+
+
+    }
   
   /* Clear floats after the columns */
   .row:after {
@@ -187,7 +191,7 @@ body{
 
 .footer {
     position: relative;
-    top: 30px;
+    top: 220px;
     left: 0;
     bottom: 0;
     width: 100%;
