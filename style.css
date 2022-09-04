@@ -59,6 +59,12 @@ body{
 
 }
 
+.infoimg {
+    margin-right: auto;
+    margin-left:auto;
+    display:block;
+}
+
 .info{
     font-size: 34px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
