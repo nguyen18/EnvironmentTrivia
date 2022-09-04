@@ -83,12 +83,12 @@ body{
   .dropdown {
     position: relative;
     left: 100%;
-    display: inline-block;
+    display:inline-block;
   }
   
   .dropdown-content {
     top: 95%;
-    display: none;
+    display:none;
     position: absolute;
     background-color: #ffffff;
     min-width: 160px;
@@ -106,7 +106,7 @@ body{
 
   .dropdown-content a:hover {background-color: #ddd;  top: 0px;}
 
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block; padding-left: 0%;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
